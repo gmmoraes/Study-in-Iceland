@@ -1,22 +1,13 @@
+#Study in Iceland
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This app is a remake of the http://www.studyiniceland.is/page/sii_frontpage.
 
+#Stack
+Angular
 
-Welcome to your Node.js project on Cloud9 IDE!
+Node.js
 
-This chat example showcases how to use `socket.io` with a static `express` server.
+#Live version
+You can check the live version of the app at the link a below
 
-## Running the server
-
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+https://studyiniceland.herokuapp.com/home 
