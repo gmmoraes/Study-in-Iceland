@@ -10,4 +10,5 @@ Node.js
 #Live version
 You can check the live version of the app at the link a below
 
-https://studyiniceland.herokuapp.com/home 
+https://study-in-iceland.herokuapp.com/home
+
