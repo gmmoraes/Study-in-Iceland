@@ -1,0 +1,22 @@
+#jumbotronHome{
+    margin-top: -20px;
+    height: 500px;
+    background-image: url("http://cdn.icelandair.com/servlet/file/store36/item756007/version3/northern-lights-front.jpg");
+}
+
+#jumbotronHome h1, #jumbotronHome p{
+    color: white;
+    margin-left: 200px;
+}
+
+#jumbotronButton{
+    background-color:  #d7d1c9;
+    margin-left: 200px;
+    width: 300px;
+    font-size: 18px;
+}
+
+#jumbotronButton:hover{
+    background-color: black;
+    color: white;
+}

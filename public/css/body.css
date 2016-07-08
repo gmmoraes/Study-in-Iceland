@@ -1,0 +1,125 @@
+#searchUniContainer{
+    height: 200px;
+    width: 100%;
+    background-color: #F3F0EA;
+    margin-top: -30px;
+}
+
+#searchUniHtop{
+    margin-left: 70px;
+    color: #d7d1c9;
+    font-weight: 900;
+
+    
+}
+
+#searchUniHBottom{
+    margin-top: -20px;
+    margin-left: 70px;
+    color: #584527;
+    font-weight: 900;
+}
+
+
+/** select box **/
+#degreTypeBox , #subjectAreaBox{
+    width: 100px;
+    margin-left: -20px;
+
+}
+
+#degreTypeLabel, #subjectAreaLabel{
+    margin-top: 50px;
+    font-size: 14px;
+    margin-left: -20px;
+}
+
+#searchUnvButton{
+    font-weight: 600;
+    font-size: 16px;
+     margin-top: 70px;
+     margin-left: -110px;
+     width: 100px;
+} 
+
+
+#searchUnvButton:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/**lower container **/
+#lowerContainer{
+    width: 740px;
+    height: 420px;
+}
+#scholarshipDiv{
+    width: 710px;
+    height: 200px;
+    background-color: rgb(125,195,111);
+    margin: 0 auto;
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+
+#guideToStudyDiv{
+    width: 330px;
+    height: 200px;
+    background-color: #e93a58;
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+#travelToIcelandDiv{
+    width: 335px;
+    height: 200px;
+    background-color: #988355;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#scholarshipDiv a, #guideToStudyDiv a, #travelToIcelandDiv a{
+    color: white;
+}
+
+
+#spacer{
+    padding-bottom: 100px;
+}
+
+
+/** footer **/
+
+.footer{
+    margin-top: 100px;
+    background-color: #29aae2;
+    color: white;
+}
+
+.footer ul{
+    list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#footerContainer{
+    margin: 0 auto;
+    width: 850px;
+}
+
+#whyIcelandFooter{
+    color: white;
+}

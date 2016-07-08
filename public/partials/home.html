@@ -1,0 +1,52 @@
+<div class="jumbotron" id="jumbotronHome">
+    <h1>One of the best <br> study environments in the world</h1>
+    <p>Iceland is the most peaceful country in the world.</p>
+    <p>Learn more about Iceland great quality of life.  </p>
+    <input class="btn" type="submit" value="Go" id="jumbotronButton">
+</div>
+<div class="container" id="searchUniContainer">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4" id="searchH1">
+            <h1 id="searchUniHtop">FIND YOUR</h1>
+            <h1 id="searchUniHBottom">PROGRAMME <br> OF STUDY.</h1>
+        </div>
+        
+        <div class="col-xs-2 col-sm-1">
+            <label id="degreTypeLabel">Level</label>
+            <select class="form-control" id="degreTypeBox" ng-mouseleave="optionPick()">
+                <option>Master</option>
+                <option>Bachelor</option>
+            </select>
+        </div>
+        <div class="col-xs-6 col-sm-2">
+            <label id="subjectAreaLabel">Subject Area</label>
+            <select class="form-control" id="subjectAreaBox">
+                <option>Humanities</option>
+                <option ng-hide="hide">Education</option>
+                <option ng-hide="hide">Social Sciences</option>
+                <option ng-hide="hide">Interdisciplinary Studies</option>
+                <option ng-hide="hide">Health Sciences</option>
+                <option ng-hide="hide">Humanities</option>
+                <option ng-hide="hide">Engineering</option>
+                <option ng-hide="hide">Sciences</option>
+                <option ng-hide="hide">Law</option>
+                <option ng-hide="hide">Arts</option>
+                <option ng-hide="hide">Business</option>
+                <option ng-hide="hide">Computer Science</option>
+            </select>
+        </div>
+        <div class="col-sm-1">
+            <a ng-controller="studyinicelandController" ng-href="{{hrefs}}" ng-click="scrollTo()" id="searchUnvButtonA"><input class="btn" value="Search" id="searchUnvButton"></a>
+        </div>
+
+        <div class="col-sm-3"></div>
+    </div>
+</div>
+
+<div class="container" id="lowerContainer">
+    <div id="scholarshipDiv"><div id="spacer"></div><a ui-sref="fees-and-scholarships">Scholarship</a></div>
+    <div id="guideToStudyDiv"><div id="spacer"></div><a ui-sref="study-in-iceland">Guide to study in Iceland</a></div>
+    <div id="travelToIcelandDiv"><div id="spacer"></div><a ui-sref="recommended">Travel recommendations</a></div>
+</div>
+

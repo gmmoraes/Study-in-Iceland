@@ -1,0 +1,96 @@
+/* app css stylesheet */
+
+/** navbar **/
+#lowerNav, #headerNav{
+    background-color: #29aae2;
+}
+
+.lowerNavA{
+    color: white !important;
+    font-family: VeritasSlab,Arial,Helvetica,sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 20px 10px 15px;
+    margin-top: 120px;
+}
+
+#homeImg img{
+    width: 150px;
+    /**length: 150px;**/
+    margin-left: 150px;
+}
+
+.rectangle{
+    width:40px;
+    height:8px;
+    margin-left: 16px;
+}
+
+#rect1A a:hover{
+    color: #88b2df !important;
+}
+
+#rect1A a:hover ~ #rect1 {
+    width: 90px;
+}
+
+#rect1{
+    background:#88b2df;
+}
+
+
+#rect2A a:hover{
+    color: #e93a58 !important;
+}
+
+#rect2A a:hover ~ #rect2 {
+    width: 90px;
+}
+
+#rect2{
+    background:#e93a58;
+}
+
+#rect3A a:hover{
+    color: #988355 !important;
+}
+
+#rect3A a:hover ~ #rect3 {
+    width: 90px;
+}
+
+#rect3{
+    background:#988355;
+}
+
+#rect4A a:hover{
+    color: #58e93a !important;
+}
+
+#rect4A a:hover ~ #rect4 {
+    width: 90px;
+}
+
+#rect4{
+    background:#58e93a;
+}
+
+
+#rect5A a:hover{
+    color: #85144b !important;
+}
+
+#rect5A a:hover ~ #rect5 {
+    width: 90px;
+}
+
+#rect5{
+    background:#85144b;
+}
+
+ul.nav li.active a { 
+    color: white !important;
+    background:#29aae2 !important;
+}
+

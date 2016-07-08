@@ -1,0 +1,30 @@
+#whyIcelandContainer{
+
+    width: 800px;
+    height: 2100px;
+    margin: 0 auto;
+}
+
+#content p{
+    display: block;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+#content h2{
+    margin-top: 50px;
+}
+
+
+#jumbotronWhyIceland{
+    margin-top: -70px;
+    height: 400px;
+    background-image: url("http://wikitravel.org/upload/shared//8/88/Iceland_Banner.jpg");
+}
+
+#jumbotronWhyIceland h1{
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-weight: 900;
+}

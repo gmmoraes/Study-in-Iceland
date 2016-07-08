@@ -1,0 +1,57 @@
+<nav class="navbar navbar-default" id="livingIcelandNav">
+  <div class="container-fluid" id="livingIcelandNavContainer">
+    <ul class="nav navbar-nav">
+      <li ng-class="{active: isActive('/living-iceland')}"><a ui-sref="living-iceland">About</a></li>
+      <li ng-class="{active: isActive('/living-iceland/residence-permit')}"><a ui-sref="residence-permit">Residence Permits</a></li>
+      <li ng-class="{active: isActive('/living-iceland/health')}"><a ui-sref='health'>Health Care/Insurance</a></li>
+      <li ng-class="{active: isActive('/living-iceland/arrival')}"><a ui-sref='arrival'>Arrival and First Days</a></li>
+      <li ng-class="{active: isActive('/living-iceland/accommodation')}"><a ui-sref='accommodation'>Accommodation</a></li>
+      <li ng-class="{active: isActive('/living-iceland/cost-of-living')}"><a ui-sref='cost-of-living'>Cost of Living</a></li>
+      <li><a ui-sref='work-in-Iceland'>Working in Iceland</a></li>
+      <li><a ui-sref='practicalities'>Practicalities</a></li>
+      <li><a ui-sref='survival-vocabulary'>Survival Vocabulary</a></li>
+      <li><a ui-sref='useful-links'>Useful Links</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="jumbotron" id="jumbotronlivingIceland">
+	<h1>Living in Iceland</h1>
+</div>
+<div class="container" id="livingIcelandContainer">
+    <div ui-view="">
+        <h2>About Iceland</h2>
+        
+        <p>
+            Iceland is an island with an area of 103,000 km2 (39,756 sq. miles) in North Europe, the second largest island
+            in the North Atlantic Ocean. Its highest peak, Hvannadalshnj&uacute;kur, rises to 2,109 m above sea level, and
+            over 11 percent of the country is covered by glaciers, including Vatnaj&ouml;kull, the largest glacier in Europe.
+        </p>
+        
+        <p>
+            Situated on the Mid-Atlantic Ridge, Iceland is a hot spot of volcanic and geothermal activity; 30 post-glacial 
+            volcanoes have erupted in the past two centuries. Natural hot water supplies much of the population with cheap, 
+            pollution-free heating, and rivers are harnessed to provide inexpensive hydroelectric power.
+        </p>
+        
+        <p>
+            Iceland is one of the most sparsely populated countries in Europe, with an average of about three inhabitants per 
+            square kilometre. Almost four-fifths of the country is uninhabited, the population being limited to the coast and the 
+            lowlands plains.
+        </p>
+        
+        <p>
+            Iceland, even though its name suggests otherwise, has a relatively mild coastal climate. The average summer temperature in 
+            Reykjavik is 12 degrees celcius in July. The average winter temperature in Reykjavik is about 1 degree.
+        </p>
+        
+        <p>
+            The first permanent settlers in Iceland were Norsemen from Scandinavia, arriving in the late 9th Century, and Celts from the 
+            British Isles. The language was Old Norse from the outset, but there are traces of Celtic influence in some of the Eddaic poems, 
+            in peoples&#39; names and place names, and even in the appearance of present-day Icelanders. Althingi, the world&#39;s oldest 
+            functioning legislative assembly, was established in the year 930 AD.<br />&nbsp;<br />
+            <strong>In the index on the left, you will find general information on things to do before arriving and the first things to do 
+            upon arrival.</strong>
+        </p>
+	</div>
+
+</div>

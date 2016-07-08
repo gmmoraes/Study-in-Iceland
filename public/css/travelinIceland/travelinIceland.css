@@ -1,0 +1,30 @@
+#travelinIcelandContainer{
+
+    width: 800px;
+    margin: 0 auto;
+}
+
+#travelinIcelandContainer p{
+    display: block;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+#travelinIcelandContainer h2{
+    margin-top: 50px;
+}
+
+
+#jumbotrontravelinIceland{
+    margin-top: -70px;
+    height: 400px;
+    background-image: url("https://www.vjv.com/media/326281/Iceland-Misc-turf-houses-SS.jpg");
+    background-size: 1500px 400px;
+}
+
+#jumbotrontravelinIceland h1{
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-weight: 900;
+}

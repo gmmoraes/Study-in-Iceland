@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Study in Iceland</title>
+    <link href="libs/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default" ng-controller="navController">
+      <div class="container-fluid" id="navContainer">
+        <div class="row" id="headerNav"></div>
+        <div class="row" id="lowerNav">
+          <ul class="nav navbar-nav">
+            <li ng-class="{active: isActive('/home')}"><a ui-sref="home" id="homeImg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/800px-Coat_of_arms_of_Iceland.svg.png"/></a></li>
+            <li ng-class="{active: isActive('/why-iceland')}" id="rect1A"><a ui-sref='why-iceland' class="lowerNavA">Why Iceland</a><div class="rectangle" id="rect1"></div></li>
+            <li ng-class="{active: isActive('/living-iceland')}" id="rect2A"><a ui-sref='living-iceland' class="lowerNavA">Living in Iceland</a><div class="rectangle" id="rect2"></li>
+            <li id="rect3A"><a ui-sref='study-in-iceland' class="lowerNavA">Study in Iceland</a><div class="rectangle" id="rect3"></li>
+            <li ng-class="{active: isActive('/learn-icelandic')}" id="rect4A"><a ui-sref='learn-icelandic' class="lowerNavA">Learn Icelandic</a><div class="rectangle" id="rect4"></li>
+            <li ng-class="{active: isActive('/travelin-Iceland')}" id="rect5A"><a ui-sref='travelin-Iceland' class="lowerNavA">Travel in Iceland</a><div class="rectangle" id="rect5"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div ui-view></div>
+    
+    
+    <footer class="footer">
+      <div class="container" id="footerContainer">
+          <div class="row">
+              <div class="col-sm-1">
+                  <ul>
+                      <label id="footerLabel"><a ui-sref='why-iceland' id="whyIcelandFooter">Why Iceland</a></label>
+                    </ul>
+              </div>
+              <div class="col-sm-3">
+                  <ul>
+                      <label id="footerLabel">Living in Iceland</label>
+                      <li><a ui-sref="living-iceland">About</a></li>
+                      <li><a ui-sref="residence-permit">Residence Permits</a></li>
+                      <li><a ui-sref='health'>Health Care/Insurance</a></li>
+                      <li><a ui-sref='arrival'>Arrival and First Days</a></li>
+                      <li><a ui-sref='accommodation'>Accommodation</a></li>
+                      <li><a ui-sref='cost-of-living'>Cost of Living</a></li>
+                    </ul>
+              </div>
+              <div class="col-sm-3">
+                  <ul>
+                      <label id="footerLabel">Study in Iceland</label>
+                      <li><a ui-sref="study-in-iceland">Admission Application</a></li>
+                      <li><a ui-sref='credits-and-degree'>Credits and Degree</a></li>
+                      <li><a ui-sref='fees-and-scholarships'>Fees Scholarships</a></li>
+                      <li><a ui-sref='programmes-english'>Programmes Taught in English</a></li>
+                      <li><a ui-sref='summer-schools'>Summer Schools</a></li>
+                    </ul>
+              </div>
+              <div class="col-sm-3">
+                  <ul>
+                      <label id="footerLabel">Learn Icelandic</label>
+                      <li class="active"><a ui-sref="language-course">Language Course for Exchange Students</a></li>
+                    </ul>
+              </div>
+              <div class="col-sm-2">
+                  <ul>
+                      <label id="footerLabel">Travel</label>
+                      <li><a ui-sref="travel-safe">Travel safe</a></li>
+                      <li><a ui-sref="recommended">Recommended</a></li>
+                      <li><a ui-sref="useful-links-travel">Useful Links</a></li>
+                      <li><a ui-sref="travel-to-iceland">Travel to Iceland</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+</footer>
+      
+      
+      
+      <script type="text/javascript" src="libs/angular/angular.js"></script>
+      <script type="text/javascript" src="libs/angular-route/angular-route.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/controllers/homeController.js"></script>
+      <script type="text/javascript" src="js/controllers/navController.js"></script>
+      <script type="text/javascript" src="js/controllers/whyicelandController.js"></script>
+      <script type="text/javascript" src="js/controllers/livingIcelandController.js"></script>
+      <script type="text/javascript" src="js/controllers/learnIcelandicController.js"></script>
+      <script type="text/javascript" src="js/controllers/travelinIcelandController.js"></script>
+      <script type="text/javascript" src="js/controllers/studyinicelandController.js"></script>
+      <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+      <script type="text/javascript" src="libs/jquery/jquery.js"></script>
+
+      
+      
+      
+  </body>
+</html>

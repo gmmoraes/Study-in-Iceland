@@ -1,0 +1,32 @@
+#studyIcelandContainer{
+
+    width: 800px;
+    margin: 0 auto;
+}
+
+#studyIcelandContainer p{
+    display: block;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+#studyIcelandContainer h2{
+    margin-top: 50px;
+}
+
+
+#jumbotronstudyIceland{
+    margin-top: -70px;
+    height: 400px;
+    background-image: url("http://www.northiceland.is/static/gallery/nature/.large/13_03_25_iceland_ma_9232.jpg");
+    background-size: 1400px 400px;
+}
+
+#jumbotronstudyIceland h1{
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+

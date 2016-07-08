@@ -1,0 +1,40 @@
+#livingIcelandContainer{
+
+    width: 800px;
+    margin: 0 auto;
+}
+
+#livingIcelandContainer p{
+    display: block;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+#livingIcelandContainer h2{
+    margin-top: 50px;
+}
+
+
+#jumbotronlivingIceland{
+    margin-top: -70px;
+    height: 400px;
+    background-image: url("http://www.vidiani.com/maps/maps_of_europe/maps_of_iceland/physical_map_of_iceland.jpg");
+}
+
+#jumbotronlivingIceland h1{
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+#residenceNav, #healthNav{
+    margin-left: 30px;
+}
+
+#residenceNav li, #healthNav li{
+    float:left;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
