@@ -1,6 +1,6 @@
 #Study in Iceland
 
-This app is a remake of the http://www.studyiniceland.is/page/sii_frontpage.
+This app is a remake of the following website: http://www.studyiniceland.is/page/sii_frontpage.
 
 #Stack
 Angular
